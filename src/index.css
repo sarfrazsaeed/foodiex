@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { scroll-behavior: smooth; }
+  body { @apply bg-surface text-white font-body antialiased; }
+  h1,h2,h3,h4 { @apply font-display; }
+  ::-webkit-scrollbar { width: 4px; height: 4px; }
+  ::-webkit-scrollbar-track { @apply bg-surface; }
+  ::-webkit-scrollbar-thumb { @apply bg-surface-border rounded-full; }
+  ::-webkit-scrollbar-thumb:hover { @apply bg-brand-red; }
+}
+
+@layer components {
+  .container-food { @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8; }
+
+  .btn-red {
+    @apply inline-flex items-center justify-center gap-2 bg-brand-red hover:bg-red-700
+           text-white font-semibold px-6 py-3 rounded-2xl transition-all duration-200
+           active:scale-95 disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+  .btn-outline {
+    @apply inline-flex items-center justify-center gap-2 border border-surface-border
+           text-white hover:border-brand-red hover:text-brand-red
+           font-medium px-6 py-3 rounded-2xl transition-all duration-200 active:scale-95;
+  }
+  .btn-ghost {
+    @apply inline-flex items-center justify-center gap-2 text-gray-400 hover:text-white
+           font-medium px-4 py-2 rounded-xl transition-colors duration-200;
+  }
+
+  .card-food {
+    @apply bg-surface-light border border-surface-border rounded-3xl
+           transition-all duration-300 hover:border-brand-red/30 hover:shadow-card-hover;
+  }
+
+  .input-food {
+    @apply w-full bg-surface-light border border-surface-border rounded-2xl px-4 py-3
+           text-sm text-white placeholder:text-gray-500
+           focus:border-brand-red focus:outline-none transition-colors duration-200;
+  }
+
+  .badge-red   { @apply inline-flex items-center gap-1 text-xs font-bold px-2.5 py-1 rounded-full bg-brand-red/15 text-brand-red border border-brand-red/30; }
+  .badge-green { @apply inline-flex items-center gap-1 text-xs font-bold px-2.5 py-1 rounded-full bg-food-green/15 text-food-green border border-food-green/30; }
+  .badge-orange{ @apply inline-flex items-center gap-1 text-xs font-bold px-2.5 py-1 rounded-full bg-brand-orange/15 text-brand-orange border border-brand-orange/30; }
+
+  .skeleton { @apply bg-gradient-to-r from-surface-light via-surface-border to-surface-light rounded-2xl animate-shimmer bg-[length:200%_100%]; }
+
+  .section-label { @apply text-xs font-mono uppercase tracking-widest text-brand-red; }
+
+  .star { @apply text-brand-yellow fill-brand-yellow; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}
