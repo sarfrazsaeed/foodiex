@@ -31,7 +31,7 @@ function AppRoutes() {
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <div className="min-h-screen bg-surface flex flex-col">
         <Navbar />
         <div className="flex-1">
