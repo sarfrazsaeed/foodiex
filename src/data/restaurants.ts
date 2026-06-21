@@ -154,8 +154,8 @@ export const restaurants: Restaurant[] = [
     deliveryTime: '40-55',
     deliveryFee: 29,
     minOrder: 200,
-    image: 'https://images.unsplash.com/photo-1563379091339-03246963d341?w=600&q=80',
-    coverImage: 'https://images.unsplash.com/photo-1563379091339-03246963d341?w=1200&q=80',
+    image: 'https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=600&q=80',
+    coverImage: 'https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=1200&q=80',
     tags: ['Authentic', 'Desi', 'Value'],
     isOpen: true,
     isFeatured: true,
@@ -165,10 +165,10 @@ export const restaurants: Restaurant[] = [
       {
         id: 'c1', name: 'Biryani', icon: '🍛',
         items: [
-          { id: 'i1', name: 'Chicken Biryani (Full)', description: 'Full pot of aromatic chicken biryani — feeds 4', price: 799, originalPrice: 950, image: 'https://images.unsplash.com/photo-1563379091339-03246963d341?w=400&q=80', isPopular: true, calories: 2400, rating: 4.9 },
-          { id: 'i2', name: 'Beef Biryani (Half)', description: 'Half pot tender beef biryani — feeds 2', price: 499, image: 'https://images.unsplash.com/photo-1563379091339-03246963d341?w=400&q=80', isPopular: true, calories: 1200, rating: 4.8, spicy: 2 },
-          { id: 'i3', name: 'Single Plate Biryani', description: 'One hearty serving of chicken biryani', price: 199, image: 'https://images.unsplash.com/photo-1563379091339-03246963d341?w=400&q=80', calories: 600, rating: 4.9 },
-          { id: 'i4', name: 'Mutton Biryani', description: 'Premium mutton biryani — full pot', price: 1199, image: 'https://images.unsplash.com/photo-1563379091339-03246963d341?w=400&q=80', isNew: true, calories: 2800, rating: 4.9, spicy: 1 },
+          { id: 'i1', name: 'Chicken Biryani (Full)', description: 'Full pot of aromatic chicken biryani — feeds 4', price: 799, originalPrice: 950, image: 'https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=400&q=80', isPopular: true, calories: 2400, rating: 4.9 },
+          { id: 'i2', name: 'Beef Biryani (Half)', description: 'Half pot tender beef biryani — feeds 2', price: 499, image: 'https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=400&q=80', isPopular: true, calories: 1200, rating: 4.8, spicy: 2 },
+          { id: 'i3', name: 'Single Plate Biryani', description: 'One hearty serving of chicken biryani', price: 199, image: 'https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=400&q=80', calories: 600, rating: 4.9 },
+          { id: 'i4', name: 'Mutton Biryani', description: 'Premium mutton biryani — full pot', price: 1199, image: 'https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=400&q=80', isNew: true, calories: 2800, rating: 4.9, spicy: 1 },
         ],
       },
       {
@@ -274,8 +274,8 @@ export const restaurants: Restaurant[] = [
     deliveryTime: '35-50',
     deliveryFee: 39,
     minOrder: 300,
-    image: 'https://images.unsplash.com/photo-1563379091339-03246963d341?w=600&q=80',
-    coverImage: 'https://images.unsplash.com/photo-1563379091339-03246963d341?w=1200&q=80',
+    image: 'https://images.unsplash.com/photo-1596797038530-2c107229654b?w=600&q=80',
+    coverImage: 'https://images.unsplash.com/photo-1596797038530-2c107229654b?w=1200&q=80',
     tags: ['Islamabad Famous', 'Value', 'Desi'],
     isOpen: true,
     description: 'Islamabad\'s iconic desi food spot. Known for pulao, karahi, and authentic Pakistani cuisine.',
@@ -284,7 +284,7 @@ export const restaurants: Restaurant[] = [
       {
         id: 'c1', name: 'Signature Dishes', icon: '🍛',
         items: [
-          { id: 'i1', name: 'Chicken Pulao', description: 'Aromatic basmati rice cooked with whole spices and tender chicken', price: 299, image: 'https://images.unsplash.com/photo-1563379091339-03246963d341?w=400&q=80', isPopular: true, calories: 620, rating: 4.9 },
+          { id: 'i1', name: 'Chicken Pulao', description: 'Aromatic basmati rice cooked with whole spices and tender chicken', price: 299, image: 'https://images.unsplash.com/photo-1596797038530-2c107229654b?w=400&q=80', isPopular: true, calories: 620, rating: 4.9 },
           { id: 'i2', name: 'Chicken Karahi', description: 'Slow-cooked tomato-based chicken curry', price: 499, originalPrice: 599, image: 'https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=400&q=80', isPopular: true, calories: 540, rating: 4.8, spicy: 2 },
           { id: 'i3', name: 'Daal Makhani', description: 'Slow-cooked black lentils in butter', price: 249, image: 'https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=400&q=80', isVeg: true, calories: 380, rating: 4.7 },
         ],
